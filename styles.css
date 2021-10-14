@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #393E46;
+  background :linear-gradient(to right, #fc766aff 50%, #5b84b1ff 0%);
 }
 
 h1 {
