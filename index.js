@@ -23,3 +23,13 @@ else if(randomNumber1<randomNumber2){
 else{
   document.querySelector("h1").innerHTML="It's a tie!!!";
 }
+
+
+document.querySelectorAll("img")[0].setAttribute("src",imageSource1);
+
+var randomNumber2=Math.random();
+randomNumber2*=6;
+randomNumber2=Math.floor(randomNumber2)+1;
+var diceNumber2="dice"+randomNumber2+".png";
+var imageSource2="images/"+diceNumber2;
+document.querySelectorAll("img")[1].setAttribute("src",imageSource2);
